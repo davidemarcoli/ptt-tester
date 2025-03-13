@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "ptt-tester"
+version = "0.1.0"
+description = ""
+authors = ["davidemarcoli <davide@marcoli.ch>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+parsett = "1.5.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
